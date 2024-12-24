@@ -1,6 +1,6 @@
-# AWS_SecureSca
+# AWS_SecureScan
 
-AWS_SecureSca is a security automation diagnostic tool based on the Cloud Security Guide distributed by SK Shieldus.
+AWS_SecureScan is a security automation diagnostic tool based on the Cloud Security Guide distributed by SK Shieldus.
 ## Features
 
 This tool helps automate and streamline AWS security diagnostics by following established security guidelines.

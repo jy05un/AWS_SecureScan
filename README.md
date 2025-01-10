@@ -18,18 +18,9 @@ This tool helps automate and streamline AWS security diagnostics by following es
 
     Python Version: 3.12.8
 
-## Required Libraries
+## Required Libraries Installation
 
-Ensure you have the following libraries installed:
-1. json
-2. boto3
-3. datetime
-4. tqdm
-5. openpyxl
-
-You can install the required dependencies using pip:
-
-pip install boto3 tqdm openpyxl
+    pip install requirements.txt
 
 ## How to Use
 
@@ -37,7 +28,7 @@ pip install boto3 tqdm openpyxl
     Set up the AWS IAM user and update aws_credentials.json with the appropriate values.
     Run the script to begin diagnostics.
 
-python automation.py
+    python automation.py
 
 ## Note
 

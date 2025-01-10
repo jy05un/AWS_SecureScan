@@ -1,0 +1,13 @@
+# Creating a requirements.txt content based on the new mentioned libraries
+requirements_with_boto3 = """
+boto3
+report-excel
+tqdm
+"""
+
+# Saving the new requirements to a file
+file_path_with_boto3 = "/mnt/data/requirements_with_boto3.txt"
+with open(file_path_with_boto3, "w") as file:
+    file.write(requirements_with_boto3)
+
+file_path_with_boto3
